@@ -24,7 +24,7 @@ export default function MidSessionComponent() {
                                 <img className="" src="/imagem-card.jpg" alt="modelo"/>
                             </div>
                             <span className="text-xl m-2 bg-amarelinho-200 md:w-2/4 text-white font-light ">
-                            Mude agora sua história! Conheça a melhor escola de beleza EAD do país, com centenas de alunos formados em todo o país. Oferecemos cursos inovadores e uma plataforma de aprendizado online de alta qualidade para transformar sua paixão em uma carreira de sucesso. Junte-se a nós e inicie sua jornada para um futuro brilhante!
+                            <span className="font-bold">Mude agora sua história! </span> Conheça a melhor escola de beleza EAD do país, com centenas de alunos formados em todo o país. Oferecemos cursos inovadores e uma plataforma de aprendizado online de alta qualidade para transformar sua paixão em uma carreira de sucesso. <span className="font-bold">Junte-se a nós e inicie sua jornada para um futuro brilhante!</span>
                             </span>
                     </CardContent>
                 </Card>
