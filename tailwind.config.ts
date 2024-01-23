@@ -19,6 +19,12 @@ const config = {
     },
     extend: {
       colors: {
+        
+        amarelinho: {
+          50: '#fcf5eb',
+          100: '#f9eddd',
+          200: '#3c4a4b'
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

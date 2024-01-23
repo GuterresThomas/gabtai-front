@@ -12,6 +12,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import CarrosselComponent from "./Carrossel"
 import MidSessionComponent from "./MidSession"
+import UnderMidSessionComponent from "./UnderMidSession"
   
   
 
@@ -21,8 +22,8 @@ export default function HomePageComponent() {
         <div className="w-screen h-screen bg-zinc-900">
             <div className="w-screen bg-black h-20 shadow-md flex items-center justify-between">
                 <div className="flex items-center">
-                    <Avatar>
-                        <AvatarImage src="" />
+                    <Avatar className="m-4">
+                        <AvatarImage src="/logo-site-gabtai-2.png" className=""  />
                         <AvatarFallback>Logo</AvatarFallback>
                     </Avatar>
                 </div>
@@ -42,6 +43,9 @@ export default function HomePageComponent() {
             </div>
             <div className="mt-2 bg-zinc-900">
                 <MidSessionComponent/>
+            </div>
+            <div className=" bg-zinc-900">
+                <UnderMidSessionComponent/>
             </div>
         </div>
     )

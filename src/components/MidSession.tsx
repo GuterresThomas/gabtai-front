@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import {
     Card,
@@ -8,30 +9,38 @@ import {
     CardTitle,
   } from "@/components/ui/card"
 
+  import { AiFillCheckCircle } from "react-icons/ai";
+  import { IconContext } from "react-icons";
+
+
   
 export default function MidSessionComponent() {
     return (
-        <div className="md:flex">
-            <div className="md:w-3/4 md:m-2">
-                <Card className="p-2 bg-zinc-100 shadow-zinc-400 shadow-md">
-                    <CardContent>
-                        <CardContent>
-                            <span className="">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, a autem numquam, ut sint eius itaque ad distinctio eaque, corrupti excepturi ipsum vero rem odio nulla illo deleniti repellendus non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, delectus iste rem incidunt facilis, ea quos vitae vel aperiam consectetur assumenda corrupti repudiandae odio? Totam temporibus tempore itaque dolorem nostrum!
+        <div className="md:flex bg-zinc-900">
+            <div className="md:w-3/4 mt-2 md:m-2">
+                <Card className="p-2 bg-amarelinho-100 shadow-zinc-400 shadow-sm rounded-xl">
+                    <CardContent className="md:justify-center  text-justify md:flex-col md:w-4/4 f">
+                            <div className="m-2">
+                                <img className="" src="/imagem-card.jpg" alt="modelo"/>
+                            </div>
+                            <span className="text-xl m-2 bg-amarelinho-200 md:w-2/4 text-white font-light ">
+                            Mude agora sua história! Conheça a melhor escola de beleza EAD do país, com centenas de alunos formados em todo o país. Oferecemos cursos inovadores e uma plataforma de aprendizado online de alta qualidade para transformar sua paixão em uma carreira de sucesso. Junte-se a nós e inicie sua jornada para um futuro brilhante!
                             </span>
-                        </CardContent>
                     </CardContent>
                 </Card>
             </div>
-            <div className="md:w-2/4 md:m-2">
-                <Card className="p-2 bg-zinc-100 shadow-zinc-400 shadow-md">
+            <div className="md:w-2/4 mt-2 md:m-2 bg-zinc-900">
+                <Card className="p-4 bg-zinc-100 shadow-zinc-400 shadow-sm rounded-xl">
                     <CardContent>
-                        <CardContent>
-                            <span className="">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, a autem numquam, ut sint eius itaque ad distinctio eaque, corrupti excepturi ipsum vero rem odio nulla illo deleniti repellendus non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, delectus iste rem incidunt facilis, ea quos vitae vel aperiam consectetur assumenda corrupti repudiandae odio? Totam temporibus tempore itaque dolorem nostrum!
-                            </span>
-                        </CardContent>
-                    </CardContent>
+                            <IconContext.Provider value={{color: "green", size: '40'}}>
+                                <ul className="flex flex-col items-center">
+                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
+                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
+                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
+                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
+                                </ul>
+                            </IconContext.Provider>
+                    </CardContent> 
                 </Card>
             </div>
         </div>
