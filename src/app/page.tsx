@@ -3,7 +3,7 @@ import HomePageComponent from '@/components/HomePage'
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-zinc-900">
       <HomePageComponent/>
     </div>
   );

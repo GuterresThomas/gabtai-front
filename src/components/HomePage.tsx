@@ -11,13 +11,14 @@ import {
   } from "@/components/ui/navigation-menu"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import CarrosselComponent from "./Carrossel"
+import MidSessionComponent from "./MidSession"
   
   
 
 
 export default function HomePageComponent() {
     return (
-        <div className="w-screen">
+        <div className="w-screen h-screen bg-zinc-900">
             <div className="w-screen bg-black h-20 shadow-md flex items-center justify-between">
                 <div className="flex items-center">
                     <Avatar>
@@ -36,8 +37,11 @@ export default function HomePageComponent() {
                     </NavigationMenuList>
                 </NavigationMenu>
             </div>
-            <div className="m-2">
+            <div className="mt-2 bg-zinc-900">
                 <CarrosselComponent/>
+            </div>
+            <div className="mt-2 bg-zinc-900">
+                <MidSessionComponent/>
             </div>
         </div>
     )
