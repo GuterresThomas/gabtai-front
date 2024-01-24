@@ -31,6 +31,9 @@ export default function MidSessionComponent() {
             </div>
             <div className="md:w-2/4 mt-2 md:m-2 bg-zinc-900">
                 <Card className="p-4 bg-zinc-100 shadow-zinc-400 shadow-sm rounded-xl">
+                    <CardHeader>
+                        <span className="text-2xl">Aqui você vai encontrar:</span>
+                    </CardHeader>
                     <CardContent>
                             <IconContext.Provider value={{color: "green", size: '40'}}>
                                 <ul className="flex flex-col items-center">
