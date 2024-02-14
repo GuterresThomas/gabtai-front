@@ -13,6 +13,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import CarrosselComponent from "./Carrossel"
 import MidSessionComponent from "./MidSession"
 import UnderMidSessionComponent from "./UnderMidSession"
+import OpcoesDeCursosComponent from "./OpcoesDeCursos"
 
   
 
@@ -48,7 +49,7 @@ export default function HomePageComponent() {
                 <UnderMidSessionComponent/>
             </div>
             <div>
-                
+                <OpcoesDeCursosComponent/>
             </div>
         </div>
     )
