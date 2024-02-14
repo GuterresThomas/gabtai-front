@@ -32,20 +32,55 @@ export default function MidSessionComponent() {
             <div className="md:w-2/4 mt-2 md:m-2 bg-zinc-900">
                 <Card className="p-4 bg-zinc-100 shadow-zinc-400 shadow-sm rounded-xl">
                     <CardHeader>
-                        <span className="text-2xl">Aqui você vai encontrar:</span>
+                        <span className="text-2xl text-amarelinho-200 font-bold">Venha estudar com a gente!</span>
                     </CardHeader>
                     <CardContent>
-                            <IconContext.Provider value={{color: "green", size: '40'}}>
-                                <ul className="flex flex-col items-center">
-                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
-                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
-                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
-                                    <li className="flex mt-2"><AiFillCheckCircle /> <span className="ml-2"> mque vel eaque, commodi animi aut cumque, maiores repellendus.</span></li>
-                                </ul>
-                            </IconContext.Provider>
+
+                                <div className="flex flex-col items-center">
+                                    <span className="text-xl font-semibold text-amarelinho-200">
+                                        Acreditamos que você merece uma
+                                        qualidade superior em educação e
+                                        por isto criamos um método
+                                        inovador para cursos de formação
+                                        e especialização de cabeleireiros
+                                        na área da beleza.
+                                    </span>
+                                </div>
                     </CardContent> 
                 </Card>
+                
+                <Card className="p-4 mt-4 bg-zinc-100 shadow-zinc-400 shadow-sm rounded-xl">
+                    <CardHeader>
+                        <span className="text-2xl text-amarelinho-200 font-bold">NOSSA ESTRATÉGIA PARA VOCÊ CRESCER!</span>
+                    </CardHeader>
+                    <CardContent>
+
+                                <div className="flex flex-col items-center">
+                                    <span className="text-xl font-semibold text-amarelinho-200">
+                                       <li>
+                                            Criar uma experiência de
+                                            imersão inicial para você evoluir
+                                            Aulas presenciais e ao vivo com
+                                            avaliação semanal. 
+                                       </li>
+                                        <li>
+                                            Acompanhamos seus resultados
+                                        e suas dificuldades
+                                        </li>
+                                        <li>
+                                            Aulas de reforço com especialista.
+                                        </li>
+                                        <li>
+                                            Suporte direto 5 dias por semana
+                                            durante todo período do curso
+                                        </li>
+                                    </span>
+                                </div>
+                    </CardContent> 
+                </Card>
+                
             </div>
+            <div></div>
         </div>
     )
 }
