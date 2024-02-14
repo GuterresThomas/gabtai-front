@@ -17,7 +17,7 @@ import {
 export default function MidSessionComponent() {
     return (
         <div className="md:flex bg-zinc-900">
-            <div className="md:w-3/4 mt-2 md:m-2">
+            <div className="md:w-3/4 mt-2 md:m-2 bg-zinc-900">
                 <Card className="p-2 bg-amarelinho-100 shadow-zinc-400 shadow-sm rounded-xl">
                     <CardContent className="md:justify-center  text-justify md:flex-col md:w-4/4 f">
                             <div className="m-2">
@@ -80,7 +80,6 @@ export default function MidSessionComponent() {
                 </Card>
                 
             </div>
-            <div></div>
         </div>
     )
 }

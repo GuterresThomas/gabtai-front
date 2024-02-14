@@ -13,7 +13,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
 import CarrosselComponent from "./Carrossel"
 import MidSessionComponent from "./MidSession"
 import UnderMidSessionComponent from "./UnderMidSession"
-  
+
   
 
 
@@ -38,14 +38,17 @@ export default function HomePageComponent() {
                     </NavigationMenuList>
                 </NavigationMenu>
             </div>
-            <div className="mt-2 bg-zinc-900">
+            <div className="md:mt-2 bg-zinc-900">
                 <CarrosselComponent/>
             </div>
-            <div className="mt-2 bg-zinc-900">
+            <div className="md:mt-2 bg-zinc-900">
                 <MidSessionComponent/>
             </div>
             <div className=" bg-zinc-900">
                 <UnderMidSessionComponent/>
+            </div>
+            <div>
+                
             </div>
         </div>
     )
